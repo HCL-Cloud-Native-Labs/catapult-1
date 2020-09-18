@@ -193,16 +193,16 @@ create_cats_eirini_secret() {
   # groups on and off.
   suites=$(paste -d',' -s <(cat <<-SUITES
 +apps
-capi_no_bridge
-container_networking
-detect
+-capi_no_bridge
+-container_networking
+-detect
 docker
-internet_dependent
-routing
-sso
+-internet_dependent
+-routing
+-sso
 v3
-zipkin
-ssh
+-zipkin
+-ssh
 -backend_compatibility
 deployments
 isolation_segments
