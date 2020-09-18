@@ -196,11 +196,11 @@ create_cats_eirini_secret() {
 -capi_no_bridge
 -container_networking
 -detect
-docker
++docker
 -internet_dependent
 -routing
 -sso
-v3
++v3
 -zipkin
 -ssh
 -backend_compatibility
